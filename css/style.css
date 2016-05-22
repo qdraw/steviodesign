@@ -1,0 +1,669 @@
+/*@font-face {
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Oxygen Light'), local('Oxygen-Light'), url(fonts/oxygen-300.woff2) format('woff2'), url(fonts/oxygen-300.woff) format('woff');
+}*/
+
+@font-face {
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oxygen'), local('Oxygen-Regular'), url(fonts/oxygen-400.woff2) format('woff2'), url(fonts/oxygen-400.woff) format('woff');
+}
+@font-face {
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Oxygen Bold'), local('Oxygen-Bold'), url(fonts/oxygen-700.woff2) format('woff2'), url(fonts/oxygen-700.woff) format('woff');
+}
+
+html {
+  	box-sizing: border-box;
+	font-family: 'Oxygen', sans-serif;
+}
+
+*, *:before, *:after {
+  	box-sizing: inherit;
+}
+
+header {
+	width: 100%;
+	height: 58px;
+	background-color: #629db2;
+	background-image: url("../images/head-dark.svg");
+	background-position: top center;
+}
+
+header .logo {
+	padding: 20px 0px 0px 10px;
+    font-size: 17px;
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+
+header .favicon {
+	width: 58px;
+	height: 58px;
+	display: none;
+	background-size: cover;
+	background-image: url("../images/favicon.png");
+}
+@media (max-width: 560px) {
+	header .logo {
+		display: none;
+	}
+	header .favicon {
+		display: block;
+	}
+
+}
+@media (max-width: 470px) {
+	header .favicon {
+		display: none;
+	}
+}
+
+
+.container {
+	width:750px;
+	margin: 0px auto 0px auto;
+}
+
+@media (max-width: 750px) {
+	.container {
+		width: 100%;
+	}
+}
+
+
+#menu ul{
+	position: relative;
+    float: right;
+}
+#menu li{
+    float: left;
+    height: 58px;
+}
+
+#menu li a {
+    height: inherit;
+    padding: 18px 11px 0px 11px;
+    margin-left: 15px;
+    display: block;
+    
+    color: white;
+    
+    text-decoration: none;
+    font-size: 17px;
+    transition: background .5s ease-in-out;
+}
+@media (max-width: 415px) {
+	#menu ul{
+    	float: inherit;
+    }
+	#menu li a {
+		margin-left: 0px;
+		padding-left: 6px;
+	}
+}
+
+#menu li a:hover{
+    background: #302D2B;
+    transition: background .5s ease-in-out;
+    }
+
+#menu .active a{
+    background-color: red;
+    background: #302D2B;
+    }
+
+
+
+.head {
+	width: 100%;
+	height: 540px;
+	height: 68vh;
+	background-image: url("../images/head.svg");
+	background-position: top center;
+
+}
+
+.werk {
+	background-position: center;
+	background-size: cover;	
+}
+
+.head .image{
+	width: 600px;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	height: inherit;
+	margin: 0px auto 0px auto;
+	background-image: url("../images/head-image.png");
+}
+
+@media (max-width: 620px) {
+	.head .image{
+		width: 100%;
+	}
+}
+
+.head .image h1 {
+	padding-top: 280px;
+	padding-top: 40vh;
+	font-size: 62px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #f1bb01;
+	text-shadow: 1px 1px 5px rgba(150, 150, 150, 1);
+}
+
+@media (max-width: 620px) {
+	.head .image h1 {
+		font-size: 50px;
+	}
+}
+
+@media (max-width: 500px) {
+	.head .image h1 {
+		font-size: 10vw;
+	}
+}
+
+
+@media screen and (max-height: 568px) and (max-width: 400px) {
+
+	.head .image h1 {
+		padding-top: 37vh;
+	}
+	.head .image{
+		background-position: center bottom;
+  		background-size:contain;
+  		height: 68vh;
+	}
+
+}
+
+@media screen and (min-height: 569px) and (max-width: 400px) and (max-height: 700px) {
+	.head .image{
+		background-position: center top;
+	}
+}
+
+@media screen and (min-width: 400px) and (max-height: 700px) {
+	.head .image{
+		background-position: center top;
+  		background-size:contain;
+	}
+
+}
+
+.head .image h2 {
+	width: 100%;
+	
+	background-image: url("../images/head-dark.svg");
+	background-position: top center;
+
+	text-align: center;
+	font-size: 50px;
+	color: white;
+}
+
+@media (max-width: 500px) {
+	.head .image h2 {
+		font-size: 35px;
+	}
+}
+
+.text,
+.intro {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.text p,
+.intro p {
+	margin-top: 10px;
+	line-height: 1.3;	
+}
+.intro hr {
+	margin-top: 28px;
+	margin-bottom: 28px;
+	display: none;
+}
+
+.text {
+	margin-bottom: 50px;
+
+}
+.text h2 {
+	margin-top: 2px;
+}
+
+hr {
+	border: 0px solid black;
+	height: 1px;
+	background-color: #629db2;
+}
+
+
+h1 {
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 1.2;	
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 1.2;	
+}
+
+h3 {
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 1.2;	
+}
+
+span,
+ul,
+p{
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 1.2;	
+}
+
+a {
+	color: black;
+}
+
+.button {
+    display: inline-block;
+    border: 0px;
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 5px 5px 5px 0px;
+    padding: 8px;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: background-color .5s ease-in-out;
+    cursor: pointer;
+    background-position: center left;
+    background-repeat:no-repeat; 	
+}
+
+.button:hover {
+    background-color: #302D2B;
+    color: white;	
+}
+.dion {
+	background-image: url('../images/dion.png');
+}
+.stefan {
+	background-image: url('../images/stefan.png');
+}
+
+.duo {
+	min-height: 290px;
+
+	background-repeat: no-repeat;
+}
+.duo:nth-child(2n+0) {
+	background-position: left bottom;
+}
+.duo:nth-child(2n+1) {
+	background-position: right bottom;
+}
+
+.duo h2,
+.duo p {
+	width: 500px;
+}
+
+@media (max-width: 750px) {
+	.duo {
+		width: 100%;
+	}
+
+	.duo h2,
+	.duo p {
+		width: 100%;
+		text-align: center;
+	}	
+
+	.duo:nth-child(2n+0),
+	.duo:nth-child(2n+1) {
+		background-position: center top;
+	}
+
+}
+
+
+.duo:nth-child(2n+1) h2,
+.duo:nth-child(2n+1) p {/*eerste*/
+	margin-right: 250px;
+}
+
+.duo:nth-child(2n+0) h2,
+.duo:nth-child(2n+0) p {/*2nd*/
+	margin-left: 250px;
+}
+
+@media (max-width: 750px) {
+	.duo:nth-child(2n+1) h2,
+	.duo:nth-child(2n+1) p {/*eerste*/
+		margin-right: 0px;
+	}
+
+	.duo:nth-child(2n+0) h2,
+	.duo:nth-child(2n+0) p {/*2nd*/
+		margin-left: 0px;
+	}
+
+}
+
+
+.duo h2 {
+	padding-top: 100px;
+}
+
+@media (max-width: 750px) {
+	.duo h2 {
+		padding-top: 350px;
+	}
+}
+
+.clear {
+	clear: both;
+}
+.portfolio h1,
+.portfolio h2 {
+	text-align: center;
+	margin-bottom: 8px;
+	color: white;
+}
+
+.portfolio {
+	background-color: #629db2;
+	background-image: url("../images/head-light.svg");
+	background-position: top center;
+	width: 100%;
+	margin-top: 55px;
+	position: relative;
+}
+
+.werk {
+	margin-top: 0px;
+}
+
+.about {
+	margin-bottom: 50px;
+}
+
+.about div:nth-child(2) {
+	width: 66%;
+	padding-bottom: 70px;
+}
+.about div:nth-child(1) {
+	width: 33%;
+	float: right;
+}
+
+@media (max-width: 580px) {
+	.about div:nth-child(1) img {
+		width: 100%;
+	}
+}
+
+.technical-skills {
+	height: 540px;
+	height: 78vh;
+	color: white;		
+}
+@media (max-width: 750px) {
+	.technical-skills {
+		height: inherit;
+		background-color: red !important;
+		font: "Comic Sans" !important;
+	}
+}
+
+
+
+.chart {
+	padding-top: 10vh;
+	margin-bottom: 50px;
+	color: white;
+    word-wrap: break-word;
+}
+@media (max-height: 800px) {
+	.chart {
+		height: 80vh;
+	}
+}
+
+@media (max-height: 666px) {
+	.chart {
+		height: 100vh;
+	}
+}
+
+@media (max-width: 750px) {
+	.chart{
+		padding-top: 0px;
+
+		float: inherit;
+		height: inherit !important;
+		background-color: red !important;
+	}
+	.chart .container {
+		height: inherit;
+	}
+	.chart img {
+		max-width: 300px;
+	}
+}
+
+@media (max-height: 930px) {
+	.chart img {
+		height: 250px;
+	}
+}
+
+.technical-skills .container img,
+.chart img {
+	max-height: 100%;
+	width: 100%;
+}
+
+.chart .content:nth-child(3n+3) {
+	text-align: right;
+}
+@media (max-width: 750px) {
+	.chart .container .content {
+		float: inherit;
+		width: 320px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.chart .content:nth-child(3n+3) {
+		text-align: left;
+	}
+}
+
+
+@media (max-height: 900px) {
+	.technical-skills img {
+		height: 60vh;
+	}
+	.technical-skills {
+		height: 80vh;
+	}
+}
+
+@media (max-height: 666px) {
+	.technical-skills {
+		height: 100vh;
+	}
+}
+
+.about ul,
+.chart ul {
+	margin-top: 20px;
+}
+
+.about ul li,
+.chart ul li {
+	line-height: 1.4;
+	margin-bottom: 14px;
+}
+
+
+
+
+.chart .container,
+.technical-skills .container,
+.portfolio .container {
+	width: 1000px;
+	padding-top: 55px;
+	padding-bottom: 75px;
+
+}
+@media (max-width: 1000px) {
+	.chart .container,
+	.technical-skills .container,
+	.portfolio .container {
+		width: 650px;
+	}
+}
+@media (max-width: 750px) {
+	.chart .container,
+	.technical-skills .container,
+	.portfolio .container {
+		width: 100%;
+	}
+}
+
+@media (max-width: 670px) {
+	.portfolio .container{
+		width: 300px;
+	}
+}
+
+
+.thumbnail {
+	display: inline-block;
+	text-align: left;
+	margin-right: 45px;
+	margin-top: 25px;
+	margin-bottom: 50px;
+
+	width: 300px;
+	height: 300px;
+}
+
+.thumbnail img {
+	width: 300px;
+	height: 250px;
+}
+
+.thumbnail a {
+	text-decoration: none;
+	color: white;
+}
+.thumbnail h3 {
+	margin-top: 11px;
+	text-align: center;
+}
+.thumbnail h4 {
+	margin-top: 3px;
+	text-align: center;
+	font-weight: normal;
+	font-size: 18px;
+}
+
+.portfolio .container .thumbnail:nth-child(3n+1){
+	margin-right: 0px;
+}
+
+@media (max-width: 1000px) {
+	.portfolio .container .thumbnail:nth-child(3n+1){
+		margin-right: 45px;
+	}
+	.portfolio .container .thumbnail:nth-child(2n+1){
+		margin-right: 0px;
+	}
+}
+
+@media (max-width: 670px) {
+	.portfolio .container .thumbnail{
+		margin-right: 0px !important;
+	}
+}
+
+
+
+footer {
+	background-image: url("../images/head-dark.svg");
+	background-position: top center;
+}
+
+
+footer .container {
+	width: 1000px;
+	height: 360px;
+}
+
+@media (max-width: 1000px) {
+	footer .container {
+		width: 650px;
+	}
+}
+
+@media (max-width: 750px) {
+	footer .container {
+		width: 100%;
+	}
+}
+
+@media (max-width: 650px) {
+	footer .container {
+		width: 300px;
+	}
+}
+
+footer .container h2,
+footer .container h1{
+	padding-top: 50px;
+	margin-left: 6px;
+	color: white;
+	max-width: 100%;
+}
+footer .container h3 a{
+	color: white;
+	margin-left: 6px;
+	margin-bottom: 6px;
+	display: block;
+	text-decoration: none;
+}
+
+.container .content {
+	margin-top: 25px;
+	float: left;
+	width: 33%;
+}
+
+
+@media (max-width: 650px) {
+	.container .content {
+		float: inherit;
+		width: 100%;
+	}
+	footer .container {
+		height: inherit;
+	}
+}
+

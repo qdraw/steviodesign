@@ -1,0 +1,39 @@
+                      ,                                  
+                     ,:                                  
+      ,:==++=~,      :~                                  
+    ,=+=:::::+?~     ~=                 ,,                  
+   ~+~:~==++=,,~,    ~=                :==:   ,=~,       ,   
+  ==,~      :~,      ~~       ~??~     :~ =:   :I=      ,,        
+ ~~=,        ==,    ,~II    :?$+=?=:      ?,   ++:     ;;  
+,==~~      ,,,   ,?Z$7ZI:  ,I$,  ~?:   +$$=,  ,+?,+= ,:;  
+ =+:     ,,,:  ,7Z: ,~=,   =I?~,+7   ,=$~,=I~   +I~77 ~:,  
+,=~:,   :==~::  ?I~  ,~=,  ,?$Z7$?:  +7:  ~I~   +$I==I=:   
+,=~:~:,:~=++,  ,I?:  ,=?:  :I7+~~:  ,?7:,~++,   =$I :I+,   
+ ,==::::::+?=~  ~II,,=II,  ,??: :~~  +?=++I$+   ~7? ,++:   
+   :~::~:, :+?+:  ?II+~:  ,:+~   ,~~  ==~::::,  :+,  :=:   
+            ,=II+:        ,:,    ,~=:                    
+              :=~==                ~=,                   
+                  ,                ,::                            
+	
+
+
+/* TEAM */
+	Design/Development:		Dion van Velde
+	Contact:			dion [at] qdraw [dot] nl
+	Twitter				@QdrawMedia
+	From:				Twello, Gelderland, The Netherlands a.k.a. Holland
+
+
+/* TEAM */
+	Content/Design:			Stefan van de Weijer
+	Contact:			info [at] stefanvandeweijer [dot] nl
+	From:				Sint-Oedenrode, Noord-Brabant, The Netherlands a.k.a. Holland
+
+
+*/ SITE */
+	Url:				http://steviodesign.nl
+	Last update:			2016/07/06
+	Language:			Dutch
+	Doctype:			HTML5
+	Standards:			HTML5, CSS3	
+	IDE:				Sublime Text

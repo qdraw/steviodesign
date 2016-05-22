@@ -1,34 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8" /> 
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-
-<!--
-
-	STOP READING CODE, HIRE US!
-	check humans.txt for contact information
-
-
-	                      ,                                  
-	                     ,:                                  
-	      ,:==++=~,      :~                                  
-	    ,=+=:::::+?~     ~=                 ,,                  
-	   ~+~:~==++=,,~,    ~=                :==:   ,=~,       ,   
-	  ==,~      :~,      ~~       ~??~     :~ =:   :I=      ,,        
-	 ~~=,        ==,    ,~II    :?$+=?=:      ?,   ++:     ;;  
-	,==~~      ,,,   ,?Z$7ZI:  ,I$,  ~?:   +$$=,  ,+?,+= ,:;  
-	 =+:     ,,,:  ,7Z: ,~=,   =I?~,+7   ,=$~,=I~   +I~77 ~:,  
-	,=~:,   :==~::  ?I~  ,~=,  ,?$Z7$?:  +7:  ~I~   +$I==I=:   
-	,=~:~:,:~=++,  ,I?:  ,=?:  :I7+~~:  ,?7:,~++,   =$I :I+,   
-	 ,==::::::+?=~  ~II,,=II,  ,??: :~~  +?=++I$+   ~7? ,++:   
-	   :~::~:, :+?+:  ?II+~:  ,:+~   ,~~  ==~::::,  :+,  :=:   
-	            ,=II+:        ,:,    ,~=:                    
-	              :=~==                ~=,                   
-	                  ,                ,::                            
-		
--->
-
 
 	<!-- 	Meta data -->        
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -37,21 +12,21 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">	
 
 
-	<title>Stevio design - Dion van Velde &amp; Stefan van de Weijer</title>
-	<meta property='og:title' content='Stevio design - Dion van Velde &amp; Stefan van de Weijer' />
+	<title>Contact - Stevio Design</title>
+	<meta property='og:title' content='Contact - Stevio Design' />
     <meta property="og:site_name" content="Stevio Design"/>
 
 
-    <meta name='keywords' content='Stevio Design, concept, marketing, stevio, stevdio, teviodesign' />
-	<meta name='description' content='De portfolio-website van Stefan van de Weijer en Dion van Velde' />
-	<meta property="og:description" content="De portfolio-website van Stefan van de Weijer en Dion van Velde" />
+    <meta name='keywords' content='contact, stevio design' />
+	<meta name='description' content='Neem contact op met Dion van Velde en Stefan van de Weijer' />
+	<meta property="og:description" content="Neem contact op met Dion van Velde en Stefan van de Weijer" />
 
 
-	<meta property="og:image" content="http://steviodesign.nl/images/head-image.jpg"/>
+	<meta property="og:image" content="http://steviodesign.nl/images/head-contact.jpg"/>
 
 
-	<link rel='canonical' href='http://steviodesign.nl/index.html' />
-	<meta property="og:url" content="http://steviodesign.nl/index.html"/>
+	<link rel='canonical' href='http://steviodesign.nl//contact.html' />
+	<meta property="og:url" content="http://steviodesign.nl/contact.html"/>
 
 
     <link rel="author" href="https://plus.google.com/+DionvanVelde"/>
@@ -84,111 +59,76 @@
 <header>
 	<div id="menu">
 		<ul>
-			<li class="active"><a href="index.html">Home</a></li>
+			<li><a href="index.html">Home</a></li>
 			<li><a href="dion.html">Dion</a></li>
 			<li><a href="stefan.html">Stefan</a></li>
 			<li><a href="werk.html">Werk</a></li>
-			<li><a href="contact.html">Contact</a></li>
+			<li class="active"><a href="contact.html">Contact</a></li>
 		</ul>		
 	</div>
-	<a href="#" class="logo">Stevio Design</a>
-	<a href="#" class="favicon"></a>
+	<a href="index.html" class="logo">Stevio Design</a>
+	<a href="index.html" class="favicon"></a>
 
 </header>
 
-<div class="head">
 
-	<div class="image">
-		<h1>Stevio Design</h1>
-		<h2>USER EXPERIENCE</h2>
-	</div>
-
+<div class="head werk" style="background-image:url('images/head-contact.jpg')">
 </div>
-
 
 <div class="container">
+	<div class="text">
+		<h1>Neem gerust contact me ons op</h1>
+		<p>Momenteel zijn wij druk bezig met het ontwikkelen van een uitdagende afstudeeropdracht. Heeft u ideeën voor een opdracht binnen uw bedrijf, neem dan direct contact met ons op.
+		</p>
+		<p>
+			<span id="mail-stevio-text"></span>
+		</p>
+		<p>
+			of bel: <br />
+			Dion: <span id="tel-dion-text"></span><br />
+			Stefan: <span id="tel-stefan-text"></span><br />
+		</p>
+			<script type="text/javascript">
+			    if (document.querySelectorAll("#mail-stevio-text").length >= 1) {
+    	    		var template = "info@StevioDesign.nl";
+		        	document.getElementById("mail-stevio-text").innerHTML = template;   
+		    	}
 
-	<div class="intro">
-		<h1>Dion en Stefan</h1>
-		<p>Wij gebruiken een sterke dosis communicatie, promotie, techniek en design om innovatieve oplossingen en producten aan te bieden. Denk hierbij aan smartphone apps, huisstijlen, reclamecampagnes, websites of zelfs interactieve installaties. Momenteel zijn wij vierdejaars studenten binnen de opleiding Communicatie & Multimedia design aan de Avans Hogeschool in Den Bosch. Doordat wij alle studiepunten hebben behaald, kunnen wij alle aandacht schenken aan onze opdrachten.</p>
+			    if (document.querySelectorAll("#tel-dion-text").length >= 1) {
+    	    		var template = "&#43;&#51;&#49; (&#54;) &#49;&#57;&#55;&#48;&#48;&#48;&#50;&#57;";
+		        	document.getElementById("tel-dion-text").innerHTML = template;   
+		    	}
+			    if (document.querySelectorAll("#tel-stefan-text").length >= 1) {
+    	    		var template = "&#43;&#51;&#49; (&#54;) 29406490";
+		        	document.getElementById("tel-stefan-text").innerHTML = template;   
+		    	}
+			</script>
 
+	</div>
+</div>
+<div class="container">
+	<div class="text">
 		<hr />
 	</div>
-
-	<div class="duo dion">
-		<h2>Interactie</h2>
-		<p>Dion richt zich vooral op de interactie tussen de gebruiker en het product. De manier waarop het product reageert op de persoon en het gevoel wat de gebruiker daarbij krijgt.</p>
+</div>
+<div class="container">
+	<div class="text">
+		<h1>Wij kunnen u helpen binnen uw project!</h1>
+		<p>
+		Heeft u een interessante opdracht binnen vormgeving, (video)animatie of programmeren, dan kunt u vrijblijvend contact met ons opnemen. Door onze gezamelijke kennis zijn wij breed inzetbaar voor diverse uitbestedingsactiviteiten.
+		</p>
 	</div>
-
-	<div class="duo stefan">
-		<h2>Communicatie</h2>
-		<p>Stefan richt zich vooral op de promotie, het verhaal en de 'experience' die de gebruiker bij het product gaat ervaren. Wat is het verhaal eromheen, wat beleefd de gebruiker en waarom raakt dit hem?</p>
-	</div>
-
-
 </div>
 
-<div class="clear"></div>
-
-<div class="portfolio">
-	<div class="container">
-			<h1>Werk</h1>
-
-
-			<div class="thumbnail">
-				<a href="werk/werkelijk-brabant.html">
-					<img src="images/thumbnail-1.jpg" srcset="images/thumbnail-1@2x.jpg 2x" alt="Werkelijk Brabant - Datavisualisatie">
-					<h3>Werkelijk Brabant</h3>
-					<h4>Datavisualisatie</h4>
-				</a>
-
-			</div>
-			<div class="thumbnail">
-				<a href="werk/interactieve-installatie.html">
-					<img src="images/thumbnail-2.jpg" srcset="images/thumbnail-2@2x.jpg 2x" alt="Interactieve installatie - User experience">
-					<h3>Interactieve installatie</h3>
-					<h4>User experience</h4>
-				</a>
-			</div>
-			<div class="thumbnail">
-				<a href="werk/run-cross-the-game.html">
-					<img src="images/thumbnail-3.jpg" srcset="images/thumbnail-3@2x.jpg 2x" alt="Run Cross the Game - Serious gaming">
-					<h3>Run Cross the Game</h3>
-					<h4>Serious gaming</h4>
-				</a>
-			</div>
-			<div class="thumbnail">
-				<a href="werk/spokenjagers.html">
-					<img src="images/thumbnail-4.jpg" srcset="images/thumbnail-4@2x.jpg 2x" alt="Spokenjagers - User experience">
-					<h3>Spokenjagers</h3>
-					<h4>User experience</h4>
-				</a>
-			</div>		
-			<div class="thumbnail">
-				<a href="werk/stopmotion-en-animatie.html">
-					<img src="images/thumbnail-5.jpg" srcset="images/thumbnail-5@2x.jpg 2x" alt="Stopmotion en animatie - Visual storytelling">
-					<h3>Stopmotion en animatie</h3>
-					<h4>Visual storytelling</h4>
-				</a>
-			</div>	
-			<div class="thumbnail">
-				<a href="werk/bosch-500.html">
-					<img src="images/thumbnail-6.jpg" srcset="images/thumbnail-6@2x.jpg 2x" alt="Bosch 500 - User experience">
-					<h3>Bosch 500</h3>
-					<h4>User experience</h4>
-				</a>
-			</div>	
-	</div>
-</div>
 <footer>
 	<div class="container">
 		<h1>Bel of mail gerust</h1>
 		<div class="content">
 			<h3> <a href="index.html">Stevio Design</a></h3>
-			<p><a class="button" href="werk.html">Werk</a></p>
-			<p><a class="button" href="stefan.html">Stefan</a></p>
 			<p><a class="button" href="dion.html">Dion</a></p>
-			<p><a class="button" href="contact.html">Contact</a></p>
+			<p><a class="button" href="stefan.html">Stefan</a></p>
+			<p><a class="button" href="werk.html">Werk</a></p>
+			<p><a class="button" class="active" href="contact.html">Contact</a></p>
 		</div>
 		<div class="content">
 			<h3> <a href="dion.html">Dion van Velde</a></h3>
@@ -240,14 +180,13 @@
         	var template = "<a class='button' href='" + t + stefan +"'>"+ stefan +"</a>"+ "&nbsp";
         	document.getElementById("tel-stefan").innerHTML = template;   
     	}
-
+	    
     	// For Internet ExploDer 8 or older
     	if(document.all && !document.addEventListener) {
     		var warning = document.createElement("div");
 	    	warning.innerHTML = '<h2>Sorry, maar met jouw versie van Internet Explorer kan mijn site niet samenwerken. Het handigste is dat je Firefox of Chrome installeerd. </h2><p> Mocht u vragen hebben neem dan contact op met Dion van Velde via: ' + '&#100;'  + '&#105;' + '&#111;' + '&#110;' + '&#64;' + '&#113;' + '&#100;' + '&#114;' + '&#97;' + '&#119;' + '&#46;' + '&#110;' + '&#108;' + '</p> <a href="https://www.google.com/chrome/browser/desktop/index.html" class="button" style="color:white">Download Google Chrome</a> <a class="button" href="https://www.mozilla.org/nl/firefox/new/">Download Firefox</a>';
 	    	document.getElementById("menu").appendChild(warning)
-		}	    
-
+		}	
 	</script>
 
 </footer>
